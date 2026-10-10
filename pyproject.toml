@@ -1,0 +1,17 @@
+[project]
+name = "mcd-surprise-officer"
+version = "0.1.0"
+description = "麦当当惊喜官：基于麦当劳 MCP 的情感场景点餐 Skill（WorkBuddy Skill + 参考实现）"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "王威然"}]
+keywords = ["mcdonalds", "mcp", "skill", "workbuddy"]
+# 仅使用 Python 标准库，无第三方运行时依赖
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

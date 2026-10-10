@@ -1,0 +1,33 @@
+# 密钥与敏感信息 —— 绝对不要提交
+.env
+.env.*
+*.local
+token.txt
+secret*
+credentials*
+
+# MCP 真实配置（只提交 mcp-config.example.json）
+mcp-config.json
+mcp.json
+
+# 依赖与构建产物
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# 本地导出（按需保留 workbuddy.md 并提交）
+*.tmp
+*.log
